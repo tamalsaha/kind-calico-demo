@@ -2,9 +2,7 @@
 
 ## Reading List
 
-- [NetworkPolicy support](https://github.com/kubernetes-sigs/kind/issues/842)
-- [Creating a Kind Cluster With Calico Networking](https://alexbrand.dev/post/creating-a-kind-cluster-with-calico-networking/)
-
+- [Network Policies](https://kubernetes.io/docs/concepts/services-networking/network-policies/)
 
 ## Create cluster
 
@@ -24,3 +22,8 @@ $ kubectl -n kube-system set env daemonset/calico-node FELIX_IGNORELOOSERPF=true
 ## Test Script
 
 https://kubernetes.io/docs/tasks/administer-cluster/declare-network-policy/
+
+## Reference Links
+
+- [NetworkPolicy support](https://github.com/kubernetes-sigs/kind/issues/842)
+- [Creating a Kind Cluster With Calico Networking](https://alexbrand.dev/post/creating-a-kind-cluster-with-calico-networking/)
