@@ -20,3 +20,7 @@ https://docs.projectcalico.org/getting-started/kubernetes/self-managed-onprem/on
 $ kubectl apply -f https://docs.projectcalico.org/manifests/calico.yaml
 $ kubectl -n kube-system set env daemonset/calico-node FELIX_IGNORELOOSERPF=true
 ```
+
+## Test Script
+
+https://kubernetes.io/docs/tasks/administer-cluster/declare-network-policy/
