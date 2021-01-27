@@ -4,6 +4,12 @@
 
 - [Network Policies](https://kubernetes.io/docs/concepts/services-networking/network-policies/)
 
+## Simulate Network Outage
+
+- https://gist.github.com/aojea/603e88ba709aac874bd7611752261772
+- https://twitter.com/khenidak/status/1330009094933995520
+- https://github.com/kubernetes/minikube/issues/6033#issuecomment-563437600
+
 ## Examples
 
 - [Whitelist kube-apiserver with Network Policy](https://stackoverflow.com/questions/58790124/whitelist-kube-apiserver-with-network-polic)
